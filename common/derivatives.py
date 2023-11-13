@@ -2,7 +2,9 @@ import os
 import math
 import numpy as np
 import torch
-import common.coefficients as coefficients
+import sys
+sys.path.append("common")
+import coefficients as coefficients
 from torch import nn
 from scipy.ndimage import gaussian_filter
 from scipy.special import poch

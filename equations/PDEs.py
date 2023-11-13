@@ -4,8 +4,10 @@ import math
 import numpy as np
 import torch
 from torch import nn
-from common.derivatives import WENO, FDM
-from temporal.solvers import *
+sys.path.append("common")
+from derivatives import WENO, FDM
+sys.path.append("temporal")
+from solvers import *
 
 
 class PDE(nn.Module):

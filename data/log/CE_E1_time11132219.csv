@@ -1,0 +1,17 @@
+File data/CE_test_E1.h5 is deleted.
+File data/CE_valid_E1.h5 is deleted.
+File data/CE_train_E1.h5 is deleted.
+Device: cuda:0
+Equation: E1
+Mode: test
+Number of samples: 128
+Batch size: 4
+Number of batches: 32
+pde_250-200: 1.7061s
+pde_250-100: 1.3618s
+pde_250-50: 1.3685s
+pde_250-40: 1.3478s
+Solved indices: 0 : 3
+Solved batches: 1 of 32
+pde_250-200: 1.3637s
+pde_250-100: 1.3623s

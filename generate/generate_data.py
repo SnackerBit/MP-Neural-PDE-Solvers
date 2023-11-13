@@ -11,8 +11,10 @@ from scipy.integrate import solve_ivp
 from copy import copy
 from typing import Callable, Tuple
 from datetime import datetime
-from equations.PDEs import PDE, CE, WE
-from temporal.solvers import *
+sys.path.append("equations")
+from PDEs import PDE, CE, WE
+sys.path.append("temporal")
+from solvers import *
 
 
 def check_files(pde: dict, modes: dict, experiment: str) -> None:
@@ -552,6 +554,32 @@ def main(args):
                           alpha=[0., 6.],
                           beta=[0.1, 0.4],
                           gamma=[0., 1.])
+        
+    elif args.experiment == 'heat_equation':
+        combined_equation(experiment=args.experiment,
+                          starting_time=0.0,
+                          end_time=2.0,
+                          num_samples_train=args.train_samples,
+                          num_samples_valid=args.valid_samples,
+                          num_samples_test=args.test_samples,
+                          batch_size=args.batch_size,
+                          device=args.device,
+                          alpha=[0., 0.],
+                          beta=[0.0, 0.2],
+                          gamma=[0., 0.])
+    
+    elif args.experiment == 'kdV_equation':
+        combined_equation(experiment=args.experiment,
+                          starting_time=0.0,
+                          end_time=2.0,
+                          num_samples_train=args.train_samples,
+                          num_samples_valid=args.valid_samples,
+                          num_samples_test=args.test_samples,
+                          batch_size=args.batch_size,
+                          device=args.device,
+                          alpha=[3., 3.],
+                          beta=[0., 0.],
+                          gamma=[1., 1.])
 
     elif args.experiment == "WE1":
         wave_equation(experiment=args.experiment,

@@ -1,0 +1,105 @@
+No file data/CE_valid_heat_equation.h5 exists yet.
+No file data/CE_test_heat_equation.h5 exists yet.
+No file data/CE_train_heat_equation.h5 exists yet.
+Device: cuda:0
+Equation: heat_equation
+Mode: valid
+Number of samples: 16
+Batch size: 4
+Number of batches: 4
+pde_250-200: 1.5416s
+pde_250-100: 1.3709s
+pde_250-50: 1.4967s
+pde_250-40: 1.4832s
+Solved indices: 0 : 3
+Solved batches: 1 of 4
+pde_250-200: 1.3742s
+pde_250-100: 1.3670s
+pde_250-50: 1.4097s
+pde_250-40: 1.4054s
+Solved indices: 4 : 7
+Solved batches: 2 of 4
+pde_250-200: 1.4005s
+pde_250-100: 1.3848s
+pde_250-50: 1.4011s
+pde_250-40: 1.3509s
+Solved indices: 8 : 11
+Solved batches: 3 of 4
+pde_250-200: 1.3369s
+pde_250-100: 1.3624s
+pde_250-50: 1.4445s
+pde_250-40: 1.4417s
+Solved indices: 12 : 15
+Solved batches: 4 of 4
+
+Data saved
+
+
+Device: cuda:0
+Equation: heat_equation
+Mode: test
+Number of samples: 16
+Batch size: 4
+Number of batches: 4
+pde_250-200: 1.3714s
+pde_250-100: 1.4516s
+pde_250-50: 1.4462s
+pde_250-40: 1.4436s
+Solved indices: 0 : 3
+Solved batches: 1 of 4
+pde_250-200: 1.3678s
+pde_250-100: 1.3782s
+pde_250-50: 1.3802s
+pde_250-40: 1.4937s
+Solved indices: 4 : 7
+Solved batches: 2 of 4
+pde_250-200: 1.4990s
+pde_250-100: 1.4484s
+pde_250-50: 1.3304s
+pde_250-40: 1.3168s
+Solved indices: 8 : 11
+Solved batches: 3 of 4
+pde_250-200: 1.3227s
+pde_250-100: 1.3622s
+pde_250-50: 1.3650s
+pde_250-40: 1.3532s
+Solved indices: 12 : 15
+Solved batches: 4 of 4
+
+Data saved
+
+
+Device: cuda:0
+Equation: heat_equation
+Mode: train
+Number of samples: 16
+Batch size: 4
+Number of batches: 4
+pde_250-200: 1.3771s
+pde_250-100: 1.3796s
+pde_250-50: 1.3518s
+pde_250-40: 1.3273s
+Solved indices: 0 : 3
+Solved batches: 1 of 4
+pde_250-200: 1.3550s
+pde_250-100: 1.3724s
+pde_250-50: 1.3656s
+pde_250-40: 1.4095s
+Solved indices: 4 : 7
+Solved batches: 2 of 4
+pde_250-200: 1.4571s
+pde_250-100: 1.4605s
+pde_250-50: 1.4086s
+pde_250-40: 1.4883s
+Solved indices: 8 : 11
+Solved batches: 3 of 4
+pde_250-200: 1.4653s
+pde_250-100: 1.4755s
+pde_250-50: 1.4838s
+pde_250-40: 1.4837s
+Solved indices: 12 : 15
+Solved batches: 4 of 4
+
+Data saved
+
+

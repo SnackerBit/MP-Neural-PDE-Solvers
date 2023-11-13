@@ -1,0 +1,57 @@
+File data/CE_train_heat_equation.h5 is deleted.
+File data/CE_valid_heat_equation.h5 is deleted.
+File data/CE_test_heat_equation.h5 is deleted.
+Device: cuda:0
+Equation: heat_equation
+Mode: train
+Number of samples: 16
+Batch size: 4
+Number of batches: 4
+pde_250-200: 4.4117s
+pde_250-100: 1.4765s
+pde_250-50: 1.4757s
+pde_250-40: 1.4683s
+Solved indices: 0 : 3
+Solved batches: 1 of 4
+pde_250-200: 4.4509s
+pde_250-100: 1.4640s
+pde_250-50: 1.4676s
+pde_250-40: 1.4851s
+Solved indices: 4 : 7
+Solved batches: 2 of 4
+pde_250-200: 4.3256s
+pde_250-100: 1.4999s
+pde_250-50: 1.5097s
+pde_250-40: 1.4961s
+Solved indices: 8 : 11
+Solved batches: 3 of 4
+pde_250-200: 4.4167s
+pde_250-100: 1.4365s
+pde_250-50: 1.4146s
+pde_250-40: 1.4459s
+Solved indices: 12 : 15
+Solved batches: 4 of 4
+
+Data saved
+
+
+Device: cuda:0
+Equation: heat_equation
+Mode: valid
+Number of samples: 0
+Batch size: 4
+Number of batches: 0
+
+Data saved
+
+
+Device: cuda:0
+Equation: heat_equation
+Mode: test
+Number of samples: 0
+Batch size: 4
+Number of batches: 0
+
+Data saved
+
+

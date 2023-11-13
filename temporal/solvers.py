@@ -1,11 +1,13 @@
 import math
 import numpy as np
 import torch
+import sys
 from abc import ABC, abstractmethod
 from torch import nn
 from torch.nn import functional as F
 from typing import Any, Callable
-from temporal.tableaux import *
+sys.path.append("temporal")
+from tableaux import *
 
 torch.set_default_dtype(torch.float64)
 

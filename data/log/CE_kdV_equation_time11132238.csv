@@ -1,0 +1,57 @@
+No file data/CE_train_kdV_equation.h5 exists yet.
+No file data/CE_valid_kdV_equation.h5 exists yet.
+No file data/CE_test_kdV_equation.h5 exists yet.
+Device: cuda:0
+Equation: kdV_equation
+Mode: train
+Number of samples: 16
+Batch size: 4
+Number of batches: 4
+pde_250-200: 91.6095s
+pde_250-100: 8.9174s
+pde_250-50: 1.4358s
+pde_250-40: 1.4285s
+Solved indices: 0 : 3
+Solved batches: 1 of 4
+pde_250-200: 88.1847s
+pde_250-100: 9.3159s
+pde_250-50: 1.5177s
+pde_250-40: 1.4439s
+Solved indices: 4 : 7
+Solved batches: 2 of 4
+pde_250-200: 89.1949s
+pde_250-100: 9.0045s
+pde_250-50: 1.4255s
+pde_250-40: 1.4403s
+Solved indices: 8 : 11
+Solved batches: 3 of 4
+pde_250-200: 91.2184s
+pde_250-100: 8.7950s
+pde_250-50: 1.4864s
+pde_250-40: 1.5149s
+Solved indices: 12 : 15
+Solved batches: 4 of 4
+
+Data saved
+
+
+Device: cuda:0
+Equation: kdV_equation
+Mode: valid
+Number of samples: 0
+Batch size: 4
+Number of batches: 0
+
+Data saved
+
+
+Device: cuda:0
+Equation: kdV_equation
+Mode: test
+Number of samples: 0
+Batch size: 4
+Number of batches: 0
+
+Data saved
+
+
